@@ -1,0 +1,10 @@
+<% if form.errors.any? %>
+  <div class="alert alert-error">
+    <h5>Please fix the following:</h5>
+    <ul>
+      <% form.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
