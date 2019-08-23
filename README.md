@@ -1,3 +1,3 @@
 # Postit
 
-This is a simplified recreation of Reddit. This allows users to register, create posts, comment on posts and up or down post and comments.
+A Reddit-like application built with Rails and PostgreSQL which allows authenticated users to create, comment, upvote or downvote posts.
